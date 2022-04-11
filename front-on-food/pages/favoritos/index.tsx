@@ -1,3 +1,9 @@
+import { PageTemplate } from "@/components";
+
 export default function Favoritos() {
-  return <h1>Favoritos</h1>;
+  return (
+    <PageTemplate>
+      <h1>Favoritos</h1>
+    </PageTemplate>
+  );
 }
