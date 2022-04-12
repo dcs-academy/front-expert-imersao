@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { PageTemplate, Search } from "@/components";
+import { PageTemplate, Search, Dishe } from "@/components";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +17,7 @@ const Home: NextPage = () => {
         <h2>
           Descubra seu novo Delivery favorito. Milhares de opções a um clique.
         </h2>
+        <Dishe />
       </PageTemplate>
     </>
   );
