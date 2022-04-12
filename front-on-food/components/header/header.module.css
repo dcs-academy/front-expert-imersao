@@ -1,0 +1,29 @@
+.nav {
+  @apply flex items-center justify-between;
+  @apply max-w-7xl mx-auto py-8;
+}
+
+.nav ul {
+  @apply flex gap-4;
+}
+
+.nav ul a {
+  @apply flex items-center px-6 min-h-[56px];
+  @apply font-bold text-base text-[#626264];
+  @apply border-[#D9D9D9]  border-2 rounded-full transition-colors;
+  @apply hover:bg-[#503E9D] hover:text-white hover:border-[#503E9D];
+}
+
+.nav a svg {
+  @apply w-5 h-5 mr-2 fill-[#A3A3A4];
+}
+
+.nav a:hover svg {
+  @apply fill-white;
+}
+
+.brand a {
+  @apply flex items-center gap-2 text-black;
+  @apply text-xl md:text-2xl font-bold;
+  @apply transition-opacity hover:opacity-80;
+}
