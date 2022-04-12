@@ -1,0 +1,12 @@
+.detail {
+  @apply flex items-center;
+  @apply text-sm text-gray-500;
+}
+
+.icon {
+  @apply mr-2 flex items-center;
+}
+
+.icon svg {
+  @apply h-4 w-4 fill-[#A3A3A4];
+}

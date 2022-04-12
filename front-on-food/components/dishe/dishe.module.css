@@ -1,0 +1,21 @@
+.dishe {
+  @apply w-full;
+}
+
+.wrapper {
+  @apply relative block rounded-3xl overflow-hidden;
+  @apply w-full h-auto;
+}
+
+.header {
+  @apply flex items-center justify-between;
+  @apply mt-4 mb-4;
+}
+
+.header h2 {
+  @apply text-lg font-bold;
+}
+
+.details {
+  @apply flex gap-4;
+}
