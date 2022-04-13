@@ -1,0 +1,41 @@
+.container {
+  @apply relative w-full mt-24;
+}
+
+.container hr {
+  @apply mx-auto w-full max-w-7xl h-[2px];
+  @apply bg-gradient-to-l from-[#f5f5f5] via-slate-900 to-[#f5f5f5];
+}
+
+.device,
+.bubble,
+.character {
+  @apply absolute;
+}
+
+.device,
+.bubble,
+.character,
+.background {
+  @apply flex;
+}
+
+.background {
+  @apply items-center justify-center;
+}
+
+.device {
+  @apply z-30 -top-4;
+  left: 50%;
+}
+
+.character {
+  @apply z-40 -bottom-2;
+  left: 35%;
+}
+
+.bubble {
+  @apply z-20;
+  left: 44%;
+  top: 10%;
+}
