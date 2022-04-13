@@ -1,6 +1,6 @@
 .nav {
   @apply flex items-center justify-between;
-  @apply max-w-7xl mx-auto py-8;
+  @apply max-w-7xl mx-auto py-16;
 }
 
 .nav ul {
