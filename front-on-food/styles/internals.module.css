@@ -1,0 +1,15 @@
+.content {
+  @apply flex flex-col justify-center items-center;
+}
+
+.content h1 {
+  @apply text-xl text-center leading-6 font-semibold;
+  @apply md:text-2xl md:font-bold md:leading-8 mb-12;
+  color: var(--text-color-primary);
+}
+
+.content h2 {
+  @apply text-lg text-center font-semibold leading-6 mt-12;
+  @apply md:text-xl md:leading-8;
+  color: var(--text-color-secondary);
+}
