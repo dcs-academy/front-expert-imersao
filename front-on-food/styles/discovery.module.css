@@ -1,0 +1,13 @@
+.content h1 {
+  @apply text-xl text-left leading-6 font-semibold;
+  @apply md:text-2xl md:font-bold md:leading-8 mb-4;
+  color: var(--text-color-primary);
+}
+
+.content p {
+  @apply text-sm mb-8;
+}
+
+.items {
+  @apply flex flex-col lg:flex-row w-full gap-8;
+}
