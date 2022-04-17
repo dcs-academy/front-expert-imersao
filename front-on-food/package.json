@@ -10,15 +10,18 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
-    "next": "12.1.4",
+    "axios": "^0.26.1",
+    "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-query": "^3.34.20"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",
     "@types/node": "17.0.23",
-    "@types/react": "18.0.1",
-    "@types/react-dom": "18.0.0",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "18.0.1",
     "autoprefixer": "^10.4.4",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.4",

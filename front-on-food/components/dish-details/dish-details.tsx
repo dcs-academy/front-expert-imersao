@@ -1,8 +1,8 @@
-import Styles from "./dishe-details.module.css";
-import { DisheDetailsProps } from "./types";
+import Styles from "./dish-details.module.css";
+import { DishDetailsProps } from "./types";
 import { IconDelivery, IconCategory, IconReviews } from "@/icons";
 
-export function DisheDetails({ type, subtitle, title }: DisheDetailsProps) {
+export function DishDetails({ type, subtitle, title }: DishDetailsProps) {
   const Icon =
     type === "delivery"
       ? IconDelivery
